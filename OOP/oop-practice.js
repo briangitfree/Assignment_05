@@ -6,7 +6,6 @@
 
 
 // STEP 1
-
 // Named class declaration
 class Cat {
     constructor(name) {
