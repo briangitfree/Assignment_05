@@ -23,33 +23,17 @@ const Dog = class {
 
 
 // STEP 2
+// Create two classes
+let cat1 = new Cat("Whiskers");
+ let dog1 = new Dog("Buddy");
 
-// let cat1 = new Cat("Whiskers");
-// let dog1 = new Dog("Buddy");
-
-// console.log(cat1);
-// console.log(dog1);
-
-// Define Cat class first
-class Cat {
-    constructor(name) {
-        this.name = name;
-    }
-}
-
-// Define Dog class first
-const Dog = class {
-    constructor(name) {
-        this.name = name;
-    }
-};
 
 // Create instances
 let cat1 = new Cat("Whiskers");
 let dog1 = new Dog("Buddy");
 
-console.log(cat1);
-console.log(dog1);
+// console.log(cat1);
+// console.log(dog1);
 
 
 
@@ -83,7 +67,7 @@ class AnimalMessage {
 
 let animal2 = new AnimalMessage("The Animal has been created");
 
-// animal2.displayMessage();
+ animal2.displayMessage();
 
 
 // STEP 5
@@ -109,9 +93,9 @@ let animal3 = new AnimalProperties(
 
 // STEP 6
 
-// for (let property in animal3) {
-//     console.log(`${property}: ${animal3[property]}`);
-// }
+ for (let property in animal3) {
+     console.log(`${property}: ${animal3[property]}`);
+ }
 
 
 // STEP 7
@@ -142,7 +126,7 @@ let dogAnimal = new AnimalSpeak(
     "40 inches"
 );
 
-// console.log(dogAnimal.speak());
+ console.log(dogAnimal.speak());
 
 
 // STEP 8
@@ -184,7 +168,7 @@ let privateAnimal = new AnimalPrivate(
     "42 inches"
 );
 
-// console.log(privateAnimal.speak());
+ console.log(privateAnimal.speak());
 
 
 // STEP 9
@@ -204,4 +188,4 @@ let paragraph =
     "JavaScript is a programming language. JavaScript is used " +
     "for web development. Learning JavaScript is fun.";
 
-// paragraph.findWords("JavaScript");
+ paragraph.findWords("JavaScript");
