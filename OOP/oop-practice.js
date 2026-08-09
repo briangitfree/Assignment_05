@@ -1,4 +1,6 @@
-
+// Assignment M5: OOP Practice
+// Comp 649 JavaScript 2
+// Author: Brian Dinh
 
 
 

@@ -1,3 +1,6 @@
+// Assignment M5: Music Player Application
+// Comp 649 JavaScript 2
+// Author: Brian Dinh
 
 
 
